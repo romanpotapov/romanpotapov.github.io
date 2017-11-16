@@ -1,0 +1,31 @@
+
+@font-face {
+	font-family: 'CirceBold';
+	src: url('../font/Circe-Bold.eot');
+	src: url('../font/Circe-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../font/Circe-Bold.woff') format('woff'),
+		url('../font/Circe-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'PTSansBold';
+	src: url('../font/PTSans-Bold.eot');
+	src: url('../font/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../font/PTSans-Bold.woff') format('woff'),
+		url('../font/PTSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'PTSansRegular';
+	src: url('../font/PTSans-Regular.eot');
+	src: url('../font/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../font/PTSans-Regular.woff') format('woff'),
+		url('../font/PTSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

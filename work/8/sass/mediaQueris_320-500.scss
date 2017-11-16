@@ -1,0 +1,117 @@
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.head-logo {
+		// border-bottom: none;
+
+		&__image {
+			width: 90%;
+		}
+
+		&__text {
+			font-size: 1.1em;
+		}
+	}
+
+	.head-heading {
+		font-size: 1.2em;
+
+		&_orange {
+			margin: 30px 0 40px 0;
+		}
+	}
+
+	.head__button {
+		width: 100%;
+	}
+
+	.info {
+		.container {
+			flex-direction: column; 
+		}
+	}
+
+	.speeker {
+		height: auto;
+		width: 100%;
+	}
+	.calendar {
+		&__day {
+			font-size: 4em;
+		}
+	}
+
+	.about {
+		height: auto;
+		width: 100%;
+		order: -1;
+
+		&-heading {
+			width: 90%;
+		}
+
+		&-list {
+			width: 90%;
+			&__item {
+				margin-left: 20%;
+			}
+		}
+
+
+	}
+
+	.timer {
+		&-list {
+			width: 100%;
+		}
+	}
+
+	.descript {
+		&__paragraph_regular {
+			font-size: 27/16*1em;
+			width: 100%;
+		}
+
+		&__heading {
+			width: 100%;
+			font-size: 1.5em;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&__paragraph_bold {
+			width: 100%;
+			font-size: 30/16*1em;
+		}
+	}
+
+	.main {
+		&__heading {
+			font-size: 24/16*1em;
+		}
+	}
+
+	.footer {
+		padding-bottom: 90px;
+		&__paragraph_big {
+			margin-top: 30px;
+			font-size: 24/16*1em;
+		}
+		
+		&__paragraph_bold {
+			margin-top: 40px;
+			font-size: 24/16*1em;
+		}
+		
+		&__button {
+			margin-top: 70px;
+			font-size: 1.2em;
+		}
+	}
+}
+

@@ -1,0 +1,356 @@
+@media screen and (min-width: 1800px) and (max-width: 1910px) {
+	.section-heading {
+		margin-top: 75px;
+
+		&__heading {
+			font-size: 3.7em;
+		}
+	}
+	.section-descript {
+		margin-top: 30px;
+		font-size: 1.5em;
+	}
+
+	/*HEAD*/
+	.header {
+		&__logo {
+			width: 12%;
+			top: 35px;
+		}
+
+		&__nav {
+			width: 35%;
+			margin-top: 60px;
+		}
+	}
+
+	.main-phone {
+		font-size: 2em;
+	}
+
+	.nav {
+		&__item {
+			height: 80px;
+			font-size: 1.2em;
+		}
+	}
+
+	.dot {
+		margin-top: 14%;
+	}
+
+	.site-heading {
+		margin-top: 70px;
+
+		&__star {
+			width: 10%;
+		}
+
+		&__main {
+			margin: 40px auto;
+		}
+	}
+
+	.top-heading {
+		font-size: 1.7em;
+		margin: 30px 3% auto 3%;
+	}
+	.main-heading {
+		font-size: 4em;
+		letter-spacing: 7px;
+	}
+	.bottom-heading {
+		font-size: 1.8em;
+		margin-bottom: 40px;
+	}
+	/*HEAD*/
+
+	/*PROGRAMS*/
+	.programs {
+		padding-bottom: 100px;
+	}
+	.programs-type {
+		margin-top: 100px;
+		height: 90px;
+	}
+
+	.program {
+		&__item {
+			padding: 0 7.8% 65px 7.8%;
+		}
+	}
+
+	.program-content {
+		&__image {
+			margin-top: 90px;
+			width: 50%;
+		}
+
+		&__heading {
+			margin-top: 90px;
+			font-size: 3em;
+		}
+	}
+
+	.program-descript {
+		margin-top: 15px;
+
+		&__icon {
+			width: 8%;
+		}
+
+		&__text {
+			font-size: 1.4em;
+		}
+
+		&_indent {
+			margin-top: 20px;
+		}
+	}
+
+	.program-price {
+		font-size: 50px;
+
+		&_big {
+			font-size: 60px;
+		}
+
+		&_small {
+			font-size: 30px;
+		}
+
+		&_indent {
+			margin-top: 15px;
+		}
+	}
+
+	.button-registr {
+		height: 60px;
+		font-size: 1em;
+
+		&_indent {
+			margin-top: 20px;
+		}
+	}
+
+	.mask-word {
+		font-size: 15em;
+		right: 0;
+	}
+	/*program-content*/
+
+	/*knowledge*/
+	.knowledge {
+		&_indent {
+			margin-top: 90px;
+		}
+
+		&__heading {
+			font-size: 1.4em;
+			width: 95%;
+			padding: 40px 0;
+		}
+	}
+
+	.knowledge-roasting__heading {
+		padding-top: 15px;
+	}
+	.knowledge-technology__heading {
+		padding-top: 70px;
+	}
+
+	.knowledge-list {
+		&__item {
+			margin-bottom: 15px;
+			font-size: 1.2em;
+
+			&_indent {
+				margin: 20px 0 0 10/640*100%;
+			}
+		}
+	}
+	/*knowledge*/
+
+	/*course-table*/
+	.l-course-table {
+		margin-top: 60px;
+	}
+	.course-table__heading {	
+	 	margin-bottom: 25px;
+	}
+	.course-table__col-check {
+	 	height: 60px;
+	 	width: 90px;
+	}
+	.course-table__col-name {
+	 	font-size: 1.2em;
+	 	height: 60px;
+	}
+	/*course-table*/
+ 	/*PROGRAMS*/
+	
+	/*GALLERY*/
+	.gallery {
+		padding-bottom: 100px;
+	}
+
+	.gallery-section__descript {
+		margin: 20px auto;
+	}
+
+	.gallery-slider {
+		margin-top: 50px;
+
+		&-nav {
+			margin-top: 60px;
+		}
+
+		&-butt {
+			$galleryButtSize: 90px;
+			width: $galleryButtSize;
+			height: $galleryButtSize;
+
+			&__image {
+				position: absolute;
+				top: 50%;
+	    		transform: translateY(-50%);
+
+	    		&-prev {
+	    			left: 50%;
+	    		}
+
+	    		&-next {
+	    			left: -50%;
+	    		}
+			}
+		}
+
+		&__count {
+			font-size: 50px;
+
+			&_small {
+				font-size: 35px;
+			}
+		}
+	}
+	/*GALLERY*/
+
+	/*TESTIMONIAL*/
+	.testimonials {
+		padding-bottom: 90px;
+	}
+	.testimonials-slider-wrap {
+		margin: 80px auto 0 auto;
+	}
+
+	.testimonials-unit {
+
+		&-image {
+			&__photo {
+				border-radius: 50%;
+			}
+
+			&__icon {
+				width: 30%;
+				top: 12%;
+			}
+		}
+
+		&__name {
+			margin-top: 30px;
+			font-size: 1.7em;
+		}	
+
+		&__text {
+			font-size: 1.4em;
+			margin-top: 25px;
+			line-height: 1.7;
+		}
+	}
+	/*TESTIMONIAL*/
+
+	/*PARTNERS*/
+	.partners {
+		padding-bottom: 100px;
+	}
+	/*PARTNERS*/
+
+	/*FEEDBACK*/
+	.form {
+		width: 80%;
+		margin-top: 150px;
+
+		&__textarea {
+			font-size: 3.2em;
+
+			&-comment {
+				font-size: 1.4em;
+			}
+		}
+
+		&__name {
+			margin: 110px 0 0 0;
+			font-size: 1.2em;
+		}
+
+		&__submit {
+			bottom: -90px;
+			font-size: 1.5em;
+			padding: 20px 11%;
+
+			&-icon {
+				width: 50%;
+			}
+		}
+	}
+	/*FEEDBACK*/
+
+	/*FOOTER*/
+	.footer {
+		&-descript {
+			&__text {
+				width: 47%;
+				font-size: 1.3em;
+			}
+		}
+
+		&-table {
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.5);
+			&_indent {
+				margin-top: 135px;
+				margin-bottom: 95px;
+			}
+
+			&__row {
+				border-collapse: collapse;
+				border: 2px solid #fff;
+			}
+
+			&__data {
+				height: 170px;
+				font-size: 1.2em;
+			}
+		}
+
+		&-rights {
+			width: 100%;
+			text-align: center;
+			margin: 0 auto;
+			
+			&__text {
+				font-size: 1.7em;
+				
+				&_uppercase {
+					font-size: 20px;
+				}
+			}
+
+			&__separation {
+				font-size: 40px;
+			}
+		}
+	}
+	/*FOOTER*/
+}
+	
