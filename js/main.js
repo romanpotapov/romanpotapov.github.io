@@ -6,25 +6,29 @@ $(document).ready(function() {
 
         var bo = $("body").scrollTop();
 
-        if ( bo > 400 ) { 
-           $(".to-top").css("display", "block"); 
-        } else { 
-           $(".to-top").css("display", "none"); 
+        if ( bo > 400 ) {
+           $(".to-top").css("display", "block");
+        } else {
+           $(".to-top").css("display", "none");
     	};
     });
 
     // плавная прокрутка
-	$('a[href^="#"]').click(function () { 
+	$('a[href^="#"]').click(function () {
      elementClick = $(this).attr("href");
      destination = $(elementClick).offset().top;
      $('body').animate( { scrollTop: destination }, 1000 );
     });
 
-    // 
+    //
     $('.popup__btn').on('click', function() {
     	$('.popup__text').fadeToggle(700);
     	$(this).removeClass('swing');
     });
+	$('.my-work__btn').on('click', function() {
+		console.log('fsdfsdfsdf');
+		$('.my-work__btn').hide('none');
+	});
 
     $('.my-work__btn').on('click', function(){
     	if(screenWidth<768) {
@@ -58,7 +62,7 @@ $(document).ready(function() {
 
 });
 
-//preloader 
+//preloader
     // $(window).on('load', function () {
     //     $preloader = $('.preloader-wrap'),
     //     $loader = $preloader.find('.preloader');
